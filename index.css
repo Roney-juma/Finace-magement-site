@@ -9,17 +9,4 @@
     width: 100%;
    
 }
-nav{
-    background-color:#E5E5E5;
-}
-nav>ul>li{
-    display: inline-block;
-    height: 50px;
-    justify-content: space-between;
-}
-li>a{
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 100;
 
-}
