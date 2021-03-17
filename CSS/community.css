@@ -1,13 +1,18 @@
 *{
     margin: auto;
+   
 }
+/* body{
+    width: 80%;
+    background-color: #E5E5E5;
+}  */
 .top{
     background-image: url("/imagez/tim-marshall-Wa-gS5R58gA-unsplash.jpg");
-    /* background-repeat:no-repeat; */
-    background-size:contain;
+    background-repeat:no-repeat;
+    background-size:cover;
        /* height: 200px;
     width: 100%; */
-    padding: 75px;
+    padding: 73px;
 
 }
 #toptext>p{
