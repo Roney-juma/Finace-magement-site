@@ -1,4 +1,4 @@
-*{
+/*{
 <<<<<<< HEAD
     font-family: monospace;
     margin: 0pc;
@@ -7,7 +7,7 @@ header{
     background-image: url("./images/nik-shuliahin-BuNWp1bL0nc-unsplash.jpg");
     background-size: 1500px 600px;
     /* background-position-x: 1200px; */
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     padding-left: 50px;
     padding-top: 30px;
 }
@@ -32,7 +32,7 @@ h1{
     text-transform: uppercase;
     /* margin-bottom: 100px; */
 }
-.main-container{
+/*.main-container{
     width: 80%;
 }
 body{
@@ -103,7 +103,7 @@ a:hover{
        /* height: 200px;
     width: 100%; */
     padding: 70px;
-
+/*
 }
 #toptext>p{
     display: flex;
@@ -154,10 +154,10 @@ a:hover{
 }
 img{
 <<<<<<< HEAD
-    border-radius:80px;
+    border-radius:80px; */
 }
 /* #smith{
-    /* width:300px; */
+    /* width:300px;
 
 =======
     border-radius:50px;
@@ -304,6 +304,8 @@ footer{
     height: 60px;
     padding-left: 10px;
 }
+
+/*
 >>>>>>> 8db348fe212ebaab96bf08adc086d91697bde1c2
 
 footer{
@@ -334,7 +336,7 @@ footer{
     width: 350px;
     background-color: #c0bfbf;
     border: none;
-}
+} */
 button{
     height: 25px;
     border-radius: 2px;
@@ -343,7 +345,7 @@ button{
     color: white;
 
 
-
+/*
 }
 button:hover{
     background-color: rgb(5, 172, 5);
@@ -359,3 +361,5 @@ footer>p{
 
 
 >>>>>>> 8db348fe212ebaab96bf08adc086d91697bde1c2
+
+*/
