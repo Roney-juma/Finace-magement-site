@@ -1,0 +1,111 @@
+*{
+    font-family: monospace; 
+    font-size: large;
+    margin: 0pc;
+}
+header{
+    background-image: url("/imagez/nik-shuliahin-BuNWp1bL0nc-unsplash.jpg");
+    background-size: 1500px 600px;
+    /* background-position-x: 1200px; */
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+}
+.broke{
+    text-align: left;
+    font-size: 4em;
+    position: static;
+    padding:120px 50px ;
+
+
+}
+.logo{
+    margin-top: -200px;
+}
+.broke span{
+    font-size: 3.7em;
+    text-transform: uppercase;
+    /* margin-bottom: 100px; */
+}
+.main-container{
+    width: 80%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    margin-top: -40px;
+}
+nav ul{
+    display: inline;
+    flex-direction: row;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+nav ul li{
+    padding-right: 10px;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+a:hover{
+    background-color: rgb(206, 200, 200);
+    padding: 10px;
+    color: orange;
+}
+.ho,.fi,.co{
+    border-right: 2px solid rgb(173, 171, 171);
+}
+.home{
+    background-color: #e5e5e5;
+    height: 50px;
+}
+.more{
+    display: flex;
+    margin: 2% 20% 2% 20%;
+    border-bottom: solid black;
+    padding-bottom: 25px;
+}
+#more{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+#money{
+    float: right;
+}
+.create{
+    display: flex;
+    margin: 2% 20% 2% 20%;
+    border-bottom: black;
+    padding-bottom: 25px;
+    border-bottom: solid black;
+}
+#finance{
+    text-align: center;
+    float: right;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+    margin-bottom: 20px;
+}
+.link{
+    margin-top: 60px;
+}
+/* roney end */
