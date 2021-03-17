@@ -34,7 +34,35 @@ a:hover{
 .ho,.fi,.co{
     border-right: 2px solid rgb(173, 171, 171);
 }
-
+.home{
+    background-color: rgb(143, 140, 140);
+    height: 50px;
+}
+.more{
+    display: flex;
+    margin: 5% 20% 5% 20%;
+}
+#more{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#money{
+    float: right;
+}
+.create{
+    display: flex;
+    margin: 5% 10% 5% 10%;
+}
+#finance{
+    text-align: center;
+    float: right;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 
 
@@ -47,7 +75,7 @@ a:hover{
 }
 
 .banner{
-    background-image: url('./images/tim-marshall-Wa-gS5R58gA-unsplash.jpg');
+    background-image: url('/imagez/jonathan-brinkhorst-6tG_liBojOk-unsplash.jpg');
     background-position: center;
     background-size: contain;
     height: 200px;
