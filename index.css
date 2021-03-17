@@ -96,6 +96,7 @@ a:hover{
     margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+<<<<<<< HEAD
 .top{
     background-image: url("./images/community.png");
     /* background-repeat:no-repeat; */
@@ -152,6 +153,9 @@ a:hover{
     display: flex;
     height: 250px;
 }
+=======
+
+>>>>>>> c757bb93decc86a58398bc2e7e5c333c96ef32ae
 img{
 <<<<<<< HEAD
     border-radius:80px; */
@@ -308,6 +312,7 @@ footer{
 /*
 >>>>>>> 8db348fe212ebaab96bf08adc086d91697bde1c2
 
+<<<<<<< HEAD
 footer{
     display: flex;
     background-color: #E5E5E5;
@@ -358,6 +363,8 @@ footer>p{
 #footerimgs{
     margin-right: 40px;
 }
+=======
+>>>>>>> c757bb93decc86a58398bc2e7e5c333c96ef32ae
 
 
 >>>>>>> 8db348fe212ebaab96bf08adc086d91697bde1c2
