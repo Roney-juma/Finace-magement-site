@@ -34,7 +34,7 @@ $ git clone https://github.com/kazungu-antony/Finace-magement-site
 1. Git
 
 ### Live Site
-View [live](https://kazungu-antony.github.io/Anitas_kitchen/)
+View [live](https://kazungu-antony.github.io/Finace-magement-site/)
 ## Author
 1. Antony Kazungu
 1. Roney Juma
