@@ -8,7 +8,7 @@
     background-color: rgb(245, 244, 244);
 }
 .top{
-    background-image: url("/imagez/tim-marshall-Wa-gS5R58gA-unsplash.jpg");
+    background-image: url("./imagez/tim-marshall-Wa-gS5R58gA-unsplash.jpg");
     /* background-repeat:no-repeat; */
     background-size:contain;
        /* height: 200px;
