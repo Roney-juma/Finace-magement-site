@@ -10,6 +10,8 @@
 </head>
 
 <body>
+<div class="parent-container">
+
     <div class="top">
         <div id="toptext">
             <p>Meet the community</p>
@@ -17,35 +19,42 @@
         
 
     </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="finance.html">Manage your Finance</a></li>
-            <li><a href="community.html">Community</a></li>
-            <li><a href="create-account.html">Create account</a></li>
-
-        </ul>
-    </nav>
+    <div class="home">
+        <nav>
+            <ul>
+                <li class="ho"><a href="home.html">Home</a></li>
+                <li class="fi"><a href="finance.html">Manage Your Finance</a></li>
+                <li class="co"><a href="community.html">Community</a></li>
+                <li class="acc"><a href="create-account.html">Create account</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+    
     <div id="mid">
+
         <div id="smith">
             <img src="/imagez/wills.jpg" alt="Willsmith" height="150px" width="150px">
             <p>Willsmith</p>
         </div>
 
-        <div id>
 
-            <div id="manager">
-                <h2>#F-Manager</h2>
-                <p>Use this simple site to track your expenses and get your report</p>
+        <div class="comment-sec">
+            <div id>
+                <div id="manager">
+                    <h2>#F-Manager</h2>
+                    <p>Use this simple site to track your expenses and get your report</p>
+                </div>
+                <br>
+                
+                <div id="post">
+                    <input type="text" placeholder="Enter your post" id="message">
+                    <button type="button" value="Post">Post</button>
+                </div>
+    
             </div>
-            <br>
-            
-            <div id="post">
-                <input type="text" placeholder="Enter your post" id="message">
-                <button type="button" value="Post">Post</button>
-            </div>
-
         </div>
+        
     </div>
     <footer>
         <p>Copyright(c) @ Codebreakers 2021</p>
@@ -56,6 +65,7 @@
             <img src="/imagez/twitter.png   " alt="twitter" height="50px" width="50px">
         </div>
     </footer>
+</div>
 </body>
 
 </html>

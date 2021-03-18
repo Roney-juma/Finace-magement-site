@@ -19,7 +19,7 @@ h1{
 }
 .broke{
     text-align: left;
-    font-size: 3.5em;
+    font-size: 3.0em;
     position: static;
     padding:120px 50px ;
 
@@ -63,18 +63,19 @@ nav ul li a{
     font-weight: bold;
     padding: 10px;
 }
-a:hover{
-    background-color: rgb(206, 200, 200);
+nav a:hover{
+    background-color: orange;
     padding: 10px;
     color: white;
     padding: 10px;
     margin-right: 10px;
-    margin-bottom: inherit;
+    padding-bottom: 10px;
     border-radius: 5px;
 }
 .ho,.fi,.co{
     border-right: 2px solid rgb(173, 171, 171);
     margin-right: 10px;
+
 }
 .home{
     background-color: #e5e5e5;
@@ -121,6 +122,11 @@ hr{
 
 #account{
     margin-right: 80px;
+}
+
+#account-button{
+    text-decoration: none;
+    background-color: none;
 }
 
 #account img{

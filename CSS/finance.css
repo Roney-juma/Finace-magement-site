@@ -18,6 +18,12 @@ nav{
     margin-right: 0;
 }
 
+.nav-bar{
+    width: 100%;
+    margin: 0;
+    margin-right: 0;
+}
+
 nav ul{
     display: inline;
     flex-direction: row;
@@ -31,12 +37,13 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
     font-size: 1.2em;
     padding: 10px;
 }
 a:hover{
-    background-color: rgb(255, 151, 151);
+    background-color: orange;
     padding: 10px;
     border-radius: 5px;
 }
@@ -76,7 +83,7 @@ a:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(245, 244, 244);
 }
 
 .banner{

@@ -2,6 +2,11 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: auto;
 }
+
+.parent-container{
+    width: 80%;
+    background-color: rgb(245, 244, 244);
+}
 .top{
     background-image: url("/imagez/tim-marshall-Wa-gS5R58gA-unsplash.jpg");
     /* background-repeat:no-repeat; */
@@ -13,14 +18,56 @@
 }
 #toptext>p{
     display: flex;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bolder;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
     text-shadow:5px solid black;
     text-shadow: 4px 4px 4px black;
     margin-left: 400px;
 }
+
+nav{
+    width: 100%;
+}
+nav ul{
+    display: inline;
+    flex-direction: row;
+    float: right;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+nav ul li{
+    
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.ho,.fi,.co{
+    border-right: 2px solid rgb(173, 171, 171);
+    margin-right: 10px;
+
+}
+
+.home{
+    background-color: #e5e5e5;
+    height: 50px;
+    width: 100%;
+}
+
 nav{
     height:45px;
     background-color:#E5E5E5;
@@ -51,12 +98,15 @@ a:hover{
     /* text-decoration: underline white; */
 }
 
-/* 
+/*
 Mid section */
 
 #mid{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     height: 250px;
+    padding: 30px;
 }
 footer{
     display: flex;
@@ -70,6 +120,7 @@ footer{
     margin-top: 20px;
     margin-right: 250px;
     border-radius: 5px;
+    padding: 20px;
 }
 #manager>p{
     margin-left: 5px;
@@ -78,14 +129,32 @@ footer{
 #manager>h2{
     margin-left: 5px;
 }
+
+#smith {
+    margin-left: 400px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 #smith>img{
     border-radius: 80px;
 }
+
+.comment-sec{
+    margin-left: -50px;
+}
+
 #post{
     background-color: #E5E5E5;
     display:block;
     height: 80px;
     margin-right: 250px;
+    border-radius: 5px;
+}
+
+#post input{
+    border-style: none;
     border-radius: 5px;
 }
 #message{
@@ -100,10 +169,14 @@ footer{
 button{
     height: 40px;
     border-radius: 2px;
-    width: 80px;
-    background-color: green;
+    width: 100px;
+    background-color: rgb(50, 173, 50);
     color: white;
     font-weight: bolder;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
 
 }
 ::placeholder{
@@ -111,7 +184,7 @@ button{
     text-align: center;
 }
 button:hover{
-    background-color: rgb(5, 172, 5);
+    background-color: orange;
     color: white;
 
 }
