@@ -1,27 +1,19 @@
 *{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: auto;
-   
 }
-<<<<<<< HEAD
 
 .parent-container{
     width: 80%;
     background-color: rgb(245, 244, 244);
 }
-=======
-/* body{
-    width: 80%;
-    background-color: #E5E5E5;
-}  */
->>>>>>> c2032a38e0fdd4543fe88420c917588aa25be9aa
 .top{
     background-image: url("/imagez/tim-marshall-Wa-gS5R58gA-unsplash.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
+    /* background-repeat:no-repeat; */
+    background-size:contain;
        /* height: 200px;
     width: 100%; */
-    padding: 73px;
+    padding: 75px;
 
 }
 #toptext>p{
@@ -192,7 +184,7 @@ button{
     text-align: center;
 }
 button:hover{
-    background-color: orange;
+    background-color: orange
     color: white;
 
 }
