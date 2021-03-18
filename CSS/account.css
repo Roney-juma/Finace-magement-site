@@ -87,7 +87,7 @@ a:hover{
 }
 
 .banner{
-    background-image: url('./imagez/jonathan-brinkhorst-6tG_liBojOk-unsplash.jpg');
+    background-image: url('/imagez/jonathan-brinkhorst-6tG_liBojOk-unsplash.jpg');
     background-position: center;
     background-size: contain;
     height: 200px;
