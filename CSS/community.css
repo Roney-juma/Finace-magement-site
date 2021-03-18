@@ -184,7 +184,7 @@ button{
     text-align: center;
 }
 button:hover{
-    background-color: orange
+    background-color: orange;
     color: white;
 
 }
